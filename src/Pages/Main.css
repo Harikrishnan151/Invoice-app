@@ -1,0 +1,107 @@
+.heading{
+    text-align: start;
+    color: white;
+    background-color:#CF275A;
+}
+.main-container{
+    height: 510px;
+}
+.sub-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: bisque;
+    height: 50px;
+}
+.btns{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.searchbar{
+    display: flex;  
+}
+#form1{
+   width: 500px;
+   background-color: white;  
+}
+.tableHead{
+    background-color:#FA8BAC;
+    color: black;
+}
+.tableBody{
+    background-color: #F6BDCF;
+    color: black;
+}
+.modalHeader{
+    background-color:#CF275A ;
+    color: white;
+}
+.modalBody{
+    background-color: #FABEBE;
+
+}
+.modalInputs{
+    display: flex;
+    height: 80px;
+    background-color: #FABEBE;
+    align-items: center;
+}
+.inputs{
+    color: black;
+}
+input{
+    border: none;
+}
+.addBtn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.invoiceAdd{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 90px;
+
+}
+.addInputs{
+    background-color:#F6BDCF ;
+    padding-left: -10px;
+    
+}
+.addInputs:hover{
+    background-color:white ;
+    
+    
+}
+.modalCaculations{
+    color: black;
+    background-color: #FABEBE;
+    height: 180px;
+}
+.savebtn{
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.invoiceSavebtn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 90px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #form1 {
+      width: 100%; 
+      padding: 0 10px; 
+      box-sizing: border-box; 
+    }
+
+  }
