@@ -69,7 +69,7 @@ input{
 }
 .addInputs{
     background-color:#F6BDCF ;
-    padding-left: -10px;
+    width: 50px;
     
 }
 .addInputs:hover{
@@ -95,6 +95,27 @@ input{
     width: 90px;
 
 }
+.main-table {
+    width: 100%;
+    table-layout: fixed; 
+  }
+  
+  .tableBody {
+    max-height: 300px; 
+    overflow-y: auto; 
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .main-table {
+      overflow-x: auto; 
+    }
+    .addInputs{
+        overflow-y: hidden;
+    }
+  }
+  
+
 
 @media screen and (max-width: 768px) {
 
